@@ -32,3 +32,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install node.js packages
         run: npm install
+          npm run ci:frontend:test
+        
